@@ -1,0 +1,539 @@
+[
+    {
+        "original": "ftp://ftp.is.co.za:80/rfc/rfc1808.txt",
+        "decoded": "ftp://ftp.is.co.za:80/rfc/rfc1808.txt",
+        "hosts": [
+            "ftp.is.co.za",
+            "rfc1808.txt"
+        ]
+    },
+    {
+        "original": "http://www.ietf.org/rfc/rfc2396.txt",
+        "decoded": "http://www.ietf.org/rfc/rfc2396.txt",
+        "hosts": [
+            "www.ietf.org",
+            "rfc2396.txt"
+        ]
+    },
+    {
+        "original": "ldap://[2001:db8::7]/c=GB?objectClass?one",
+        "decoded": "ldap://[2001:db8::7]/c=GB?objectClass?one",
+        "hosts": []
+    },
+    {
+        "original": "mailto:John.Doe@example.com",
+        "decoded": "mailto:John.Doe@example.com",
+        "hosts": [
+            "John.Doe",
+            "example.com"
+        ]
+    },
+    {
+        "original": "news:comp.infosystems.www.servers.unix",
+        "decoded": "news:comp.infosystems.www.servers.unix",
+        "hosts": [
+            "comp.infosystems.www.servers.unix"
+        ]
+    },
+    {
+        "original": "tel:+1-816-555-1212",
+        "decoded": "tel:+1-816-555-1212",
+        "hosts": []
+    },
+    {
+        "original": "telnet://192.0.2.16:80/",
+        "decoded": "telnet://192.0.2.16:80/",
+        "hosts": [
+            "192.0.2.16"
+        ]
+    },
+    {
+        "original": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
+        "decoded": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
+        "hosts": []
+    },
+    {
+        "original": "http://foo.com/blah_blah",
+        "decoded": "http://foo.com/blah_blah",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/blah_blah/",
+        "decoded": "http://foo.com/blah_blah/",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/blah_blah_(wikipedia)",
+        "decoded": "http://foo.com/blah_blah_(wikipedia)",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/blah_blah_(wikipedia)_(again)",
+        "decoded": "http://foo.com/blah_blah_(wikipedia)_(again)",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://www.example.com/wpstyle/?p=364",
+        "decoded": "http://www.example.com/wpstyle/?p=364",
+        "hosts": [
+            "www.example.com"
+        ]
+    },
+    {
+        "original": "https://www.example.com/foo/?bar=baz&amp;inga=42&amp;quux",
+        "decoded": "https://www.example.com/foo/?bar=baz&amp;inga=42&amp;quux",
+        "hosts": [
+            "www.example.com"
+        ]
+    },
+    {
+        "original": "http://✪df.ws/123",
+        "decoded": "http://✪df.ws/123",
+        "hosts": [
+            "✪df.ws"
+        ]
+    },
+    {
+        "original": "http://userid:password@example.com:8080",
+        "decoded": "http://userid:password@example.com:8080",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid:password@example.com:8080/",
+        "decoded": "http://userid:password@example.com:8080/",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid@example.com",
+        "decoded": "http://userid@example.com",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid@example.com/",
+        "decoded": "http://userid@example.com/",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid@example.com:8080",
+        "decoded": "http://userid@example.com:8080",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid@example.com:8080/",
+        "decoded": "http://userid@example.com:8080/",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid:password@example.com",
+        "decoded": "http://userid:password@example.com",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://userid:password@example.com/",
+        "decoded": "http://userid:password@example.com/",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://142.42.1.1/",
+        "decoded": "http://142.42.1.1/",
+        "hosts": [
+            "142.42.1.1"
+        ]
+    },
+    {
+        "original": "http://142.42.1.1:8080/",
+        "decoded": "http://142.42.1.1:8080/",
+        "hosts": [
+            "142.42.1.1"
+        ]
+    },
+    {
+        "original": "http://➡.ws/䨹",
+        "decoded": "http://➡.ws/䨹",
+        "hosts": [
+            "➡.ws"
+        ]
+    },
+    {
+        "original": "http://⌘.ws",
+        "decoded": "http://⌘.ws",
+        "hosts": [
+            "⌘.ws"
+        ]
+    },
+    {
+        "original": "http://⌘.ws/",
+        "decoded": "http://⌘.ws/",
+        "hosts": [
+            "⌘.ws"
+        ]
+    },
+    {
+        "original": "http://foo.com/blah_(wikipedia)#cite-1",
+        "decoded": "http://foo.com/blah_(wikipedia)#cite-1",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/blah_(wikipedia)_blah#cite-1",
+        "decoded": "http://foo.com/blah_(wikipedia)_blah#cite-1",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/unicode_(✪)_in_parens",
+        "decoded": "http://foo.com/unicode_(✪)_in_parens",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://foo.com/(something)?after=parens",
+        "decoded": "http://foo.com/(something)?after=parens",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "http://☺.damowmow.com/",
+        "decoded": "http://☺.damowmow.com/",
+        "hosts": [
+            "☺.damowmow.com"
+        ]
+    },
+    {
+        "original": "http://code.google.com/events/#&amp;product=browser",
+        "decoded": "http://code.google.com/events/#&amp;product=browser",
+        "hosts": [
+            "code.google.com"
+        ]
+    },
+    {
+        "original": "http://j.mp",
+        "decoded": "http://j.mp",
+        "hosts": [
+            "j.mp"
+        ]
+    },
+    {
+        "original": "ftp://foo.bar/baz",
+        "decoded": "ftp://foo.bar/baz",
+        "hosts": [
+            "foo.bar"
+        ]
+    },
+    {
+        "original": "http://foo.bar/?q=Test%20URL-encoded%20stuff",
+        "decoded": "http://foo.bar/?q=Test URL-encoded stuff",
+        "hosts": [
+            "foo.bar"
+        ]
+    },
+    {
+        "original": "http://مثال.إختبار",
+        "decoded": "http://مثال.إختبار",
+        "hosts": [
+            "مثال.إختبار"
+        ]
+    },
+    {
+        "original": "http://例子.测试",
+        "decoded": "http://例子.测试",
+        "hosts": [
+            "例子.测试"
+        ]
+    },
+    {
+        "original": "http://उदाहरण.परीक्षा",
+        "decoded": "http://उदाहरण.परीक्षा",
+        "hosts": [
+            "उदाहरण.परीक्षा"
+        ]
+    },
+    {
+        "original": "http://-.~_!$&amp;'()*+,;=:%40:80%2f::::::@example.com",
+        "decoded": "http://-.~_!$&amp;'()*+,;=:@:80/::::::@example.com",
+        "hosts": [
+            "example.com"
+        ]
+    },
+    {
+        "original": "http://1337.net",
+        "decoded": "http://1337.net",
+        "hosts": [
+            "1337.net"
+        ]
+    },
+    {
+        "original": "http://a.b-c.de",
+        "decoded": "http://a.b-c.de",
+        "hosts": [
+            "a.b-c.de"
+        ]
+    },
+    {
+        "original": "http://223.255.255.254",
+        "decoded": "http://223.255.255.254",
+        "hosts": [
+            "223.255.255.254"
+        ]
+    },
+    {
+        "original": "https://foo_bar.example.com/",
+        "decoded": "https://foo_bar.example.com/",
+        "hosts": [
+            "foo_bar.example.com"
+        ]
+    },
+    {
+        "original": "http://",
+        "decoded": "http://",
+        "hosts": []
+    },
+    {
+        "original": "http://.",
+        "decoded": "http://.",
+        "hosts": []
+    },
+    {
+        "original": "http://..",
+        "decoded": "http://..",
+        "hosts": []
+    },
+    {
+        "original": "http://../",
+        "decoded": "http://../",
+        "hosts": []
+    },
+    {
+        "original": "http://?",
+        "decoded": "http://?",
+        "hosts": []
+    },
+    {
+        "original": "http://??",
+        "decoded": "http://??",
+        "hosts": []
+    },
+    {
+        "original": "http://??/",
+        "decoded": "http://??/",
+        "hosts": []
+    },
+    {
+        "original": "http://#",
+        "decoded": "http://#",
+        "hosts": []
+    },
+    {
+        "original": "http://##",
+        "decoded": "http://##",
+        "hosts": []
+    },
+    {
+        "original": "http://##/",
+        "decoded": "http://##/",
+        "hosts": []
+    },
+    {
+        "original": "http://foo.bar?q=Spaces should be encoded",
+        "decoded": "http://foo.bar?q=Spaces should be encoded",
+        "hosts": [
+            "foo.bar"
+        ]
+    },
+    {
+        "original": "//",
+        "decoded": "//",
+        "hosts": []
+    },
+    {
+        "original": "//a",
+        "decoded": "//a",
+        "hosts": []
+    },
+    {
+        "original": "///a",
+        "decoded": "///a",
+        "hosts": []
+    },
+    {
+        "original": "///",
+        "decoded": "///",
+        "hosts": []
+    },
+    {
+        "original": "http:///a",
+        "decoded": "http:///a",
+        "hosts": []
+    },
+    {
+        "original": "foo.com",
+        "decoded": "foo.com",
+        "hosts": [
+            "foo.com"
+        ]
+    },
+    {
+        "original": "rdar://1234",
+        "decoded": "rdar://1234",
+        "hosts": []
+    },
+    {
+        "original": "h://test",
+        "decoded": "h://test",
+        "hosts": []
+    },
+    {
+        "original": "http:// shouldfail.com",
+        "decoded": "http:// shouldfail.com",
+        "hosts": [
+            "shouldfail.com"
+        ]
+    },
+    {
+        "original": ":// should fail",
+        "decoded": ":// should fail",
+        "hosts": []
+    },
+    {
+        "original": "http://foo.bar/foo(bar)baz quux",
+        "decoded": "http://foo.bar/foo(bar)baz quux",
+        "hosts": [
+            "foo.bar"
+        ]
+    },
+    {
+        "original": "ftps://foo.bar/",
+        "decoded": "ftps://foo.bar/",
+        "hosts": [
+            "foo.bar"
+        ]
+    },
+    {
+        "original": "http://-error-.invalid/",
+        "decoded": "http://-error-.invalid/",
+        "hosts": []
+    },
+    {
+        "original": "http://a.b--c.de/",
+        "decoded": "http://a.b--c.de/",
+        "hosts": [
+            "a.b--c.de"
+        ]
+    },
+    {
+        "original": "http://-a.b.co",
+        "decoded": "http://-a.b.co",
+        "hosts": []
+    },
+    {
+        "original": "http://a.b-.co",
+        "decoded": "http://a.b-.co",
+        "hosts": []
+    },
+    {
+        "original": "http://0.0.0.0",
+        "decoded": "http://0.0.0.0",
+        "hosts": [
+            "0.0.0.0"
+        ]
+    },
+    {
+        "original": "http://10.1.1.0",
+        "decoded": "http://10.1.1.0",
+        "hosts": [
+            "10.1.1.0"
+        ]
+    },
+    {
+        "original": "http://10.1.1.255",
+        "decoded": "http://10.1.1.255",
+        "hosts": [
+            "10.1.1.255"
+        ]
+    },
+    {
+        "original": "http://224.1.1.1",
+        "decoded": "http://224.1.1.1",
+        "hosts": [
+            "224.1.1.1"
+        ]
+    },
+    {
+        "original": "http://1.1.1.1.1",
+        "decoded": "http://1.1.1.1.1",
+        "hosts": []
+    },
+    {
+        "original": "http://123.123.123",
+        "decoded": "http://123.123.123",
+        "hosts": []
+    },
+    {
+        "original": "http://3628126748",
+        "decoded": "http://3628126748",
+        "hosts": []
+    },
+    {
+        "original": "http://.www.foo.bar/",
+        "decoded": "http://.www.foo.bar/",
+        "hosts": [
+            "www.foo.bar"
+        ]
+    },
+    {
+        "original": "http://www.foo.bar./",
+        "decoded": "http://www.foo.bar./",
+        "hosts": [
+            "www.foo.bar"
+        ]
+    },
+    {
+        "original": "http://.www.foo.bar./",
+        "decoded": "http://.www.foo.bar./",
+        "hosts": [
+            "www.foo.bar"
+        ]
+    },
+    {
+        "original": "http://10.1.1.1",
+        "decoded": "http://10.1.1.1",
+        "hosts": [
+            "10.1.1.1"
+        ]
+    },
+    {
+        "original": "http://10.1.1.254",
+        "decoded": "http://10.1.1.254",
+        "hosts": [
+            "10.1.1.254"
+        ]
+    }
+]
